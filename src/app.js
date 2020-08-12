@@ -13,23 +13,7 @@ mongoose.connect(process.env.MONGO_URL,{
     useUnifiedTopology: true,
     useFindAndModify: false
 })
-/*
-const test_entry = {
-    title: 'Day Trip to Traverse City',
-      description: 'Saw the Sleeping Bear Sand Dunes',
-      image: 'https://upload.wikimedia.org/wikipedia/commons/3/38/Sleeping_Bear_Dune_Aerial_View.jpg',
-      rating: 7,
-      latitude: 44.882472,
-      longitude:  -86.042127 ,
-      dateVisited: Date.now()
-}
-LocEntry.create(test_entry,(error,result)=>{
-    if (error)
-        console.log(error)
-    else
-        console.log(result)
-});
-*/
+
 
 
 
